@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_wm_bs_domain_Wm_web_login" modelAttribute="wm_web_login" path="/wm_web_logins" versionField="Version" z="RrWwMcK4Fm5J/5WvURPnW5p0iTM=">
+        <field:select field="ww_id" id="c_com_wm_bs_domain_Wm_web_login_ww_id" itemValue="id" items="${wm_websites}" path="/wm_websites" z="iXaHpl7scFz5+Be8/8qSaD5zHPk="/>
+        <field:textarea field="ww_name" id="c_com_wm_bs_domain_Wm_web_login_ww_name" required="true" z="lY9mni8CBiZRmkMdve2bcmY9V1g="/>
+        <field:textarea field="username" id="c_com_wm_bs_domain_Wm_web_login_username" required="true" z="xMVPdWYp4ZFl4fiFHKAt8vCimqY="/>
+        <field:textarea field="password" id="c_com_wm_bs_domain_Wm_web_login_password" required="true" z="dzzWsk8WrYx45l2iNxJMXLhRM78="/>
+        <field:checkbox field="is_used" id="c_com_wm_bs_domain_Wm_web_login_is_used" z="TV/bEHXcldvGp+/wjcWO5A2qtyg="/>
+        <field:checkbox field="is_active" id="c_com_wm_bs_domain_Wm_web_login_is_active" z="cF7i8JtJakfe2yJd9mM7JVQo2xQ="/>
+        <field:datetime dateTimePattern="${wm_web_login_mtime_date_format}" field="mtime" id="c_com_wm_bs_domain_Wm_web_login_mtime" z="68TG0bJzokRdn1R79DkimTprHtU="/>
+    </form:update>
+</div>

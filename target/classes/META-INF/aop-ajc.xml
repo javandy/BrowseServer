@@ -1,0 +1,30 @@
+<aspectj>
+<aspects>
+<aspect name="com.wm.bs.domain.Wm_website_Roo_Configurable"/>
+<aspect name="com.wm.bs.web.Wm_websiteController_Roo_Controller"/>
+<aspect name="com.wm.bs.domain.Wm_web_login_Roo_Jpa_Entity"/>
+<aspect name="com.wm.bs.domain.Wm_website_Roo_Jpa_Entity"/>
+<aspect name="com.wm.bs.domain.Wm_web_login_Roo_Configurable"/>
+<aspect name="com.wm.bs.domain.Wm_website_Roo_JavaBean"/>
+<aspect name="com.wm.bs.web.Wm_web_loginController_Roo_Controller_Json"/>
+<aspect name="com.wm.bs.domain.Wm_log_Roo_Jpa_Entity"/>
+<aspect name="com.wm.bs.domain.Wm_log_Roo_JavaBean"/>
+<aspect name="com.wm.bs.domain.Wm_log_Roo_ToString"/>
+<aspect name="com.wm.bs.domain.Wm_web_login_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.wm.bs.domain.Wm_log_Roo_Configurable"/>
+<aspect name="com.wm.bs.domain.Wm_log_Roo_Json"/>
+<aspect name="com.wm.bs.domain.Wm_website_Roo_Json"/>
+<aspect name="com.wm.bs.web.Wm_logController_Roo_Controller_Json"/>
+<aspect name="com.wm.bs.domain.Wm_web_login_Roo_JavaBean"/>
+<aspect name="com.wm.bs.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.wm.bs.domain.Wm_web_login_Roo_ToString"/>
+<aspect name="com.wm.bs.domain.Wm_log_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.wm.bs.domain.Wm_website_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.wm.bs.domain.Wm_web_login_Roo_Json"/>
+<aspect name="com.wm.bs.domain.Wm_website_Roo_ToString"/>
+<aspect name="com.wm.bs.web.Wm_logController_Roo_Controller"/>
+<aspect name="com.wm.bs.web.Wm_web_loginController_Roo_Controller"/>
+<aspect name="com.wm.bs.web.Wm_websiteController_Roo_Controller_Json"/>
+</aspects>
+</aspectj>
+

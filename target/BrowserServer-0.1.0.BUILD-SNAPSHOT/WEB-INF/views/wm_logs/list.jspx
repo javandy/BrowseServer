@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_wm_bs_domain_Wm_log" items="${wm_logs}" z="FSmIMjXhf/vnB83ySgXcoMSN9ZI=">
+        <table:table data="${wm_logs}" id="l_com_wm_bs_domain_Wm_log" path="/wm_logs" z="F5qx340YclAZefybmvlvUf5HJ4U=">
+            <table:column id="c_com_wm_bs_domain_Wm_log_ip" property="ip" z="idGIvK8IAGgX9LPoPkkb9tsT4+s="/>
+            <table:column id="c_com_wm_bs_domain_Wm_log_website" property="website" z="vrXU25l2z8FNbfgcmA2WQWubdgE="/>
+            <table:column id="c_com_wm_bs_domain_Wm_log_username" property="username" z="ZUtTaMRo4QTXrzwKXp9JPJjh17k="/>
+            <table:column date="true" dateTimePattern="${wm_log_btime_date_format}" id="c_com_wm_bs_domain_Wm_log_btime" property="btime" z="eaAQJOB5nPpFf6ABK72zKIbKhvU="/>
+            <table:column date="true" dateTimePattern="${wm_log_etime_date_format}" id="c_com_wm_bs_domain_Wm_log_etime" property="etime" z="D3sUaJDRGV6NDE5RXxKSwCcfwgI="/>
+        </table:table>
+    </page:list>
+</div>

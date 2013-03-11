@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_wm_bs_domain_Wm_website" object="${wm_website}" path="/wm_websites" z="G6v1pDGKNLbKQKpHyOuIouWeAhs=">
+        <field:display field="ww_name" id="s_com_wm_bs_domain_Wm_website_ww_name" object="${wm_website}" z="wGW0c9vAJ1/K1enswqoiFRFGvlM="/>
+        <field:display field="username_v" id="s_com_wm_bs_domain_Wm_website_username_v" object="${wm_website}" z="e9vYwv1b3P5IJm98y7fRN/xdUpk="/>
+        <field:display field="password_v" id="s_com_wm_bs_domain_Wm_website_password_v" object="${wm_website}" z="hD+uaNPIl8Fhrjtown+sKZmKXCM="/>
+        <field:display field="submit_p" id="s_com_wm_bs_domain_Wm_website_submit_p" object="${wm_website}" z="rwuUEI/4dMLAIBn1LSmL7V1CDkc="/>
+        <field:display field="is_active" id="s_com_wm_bs_domain_Wm_website_is_active" object="${wm_website}" z="6saT+kd2tp3yPK3TooyrNusimdM="/>
+        <field:display date="true" dateTimePattern="${wm_website_mtime_date_format}" field="mtime" id="s_com_wm_bs_domain_Wm_website_mtime" object="${wm_website}" z="h3DkCGAtw3ometSgFXrnNORoeYE="/>
+    </page:show>
+</div>

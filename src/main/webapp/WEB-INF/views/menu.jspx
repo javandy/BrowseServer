@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_wm_website" z="J4tYOt3Q8fsNcr1LxVjfai58FWc=">
+            <menu:item id="i_wm_website_new" messageCode="global_menu_new" url="/wm_websites?form" z="Xxmep5pgupTyZ7PibRG+WjbDi6Q="/>
+            <menu:item id="i_wm_website_list" messageCode="global_menu_list" url="/wm_websites?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lPlxZSRYnWfCpE4ZPoeFfQwPlps="/>
+        </menu:category>
+        <menu:category id="c_wm_web_login" z="FPm1rMsDmktFgp5G2pNRdL0uMiA=">
+            <menu:item id="i_wm_web_login_new" messageCode="global_menu_new" url="/wm_web_logins?form" z="0oVIkq1g5FxKf/RPd4VBREjZb/w="/>
+            <menu:item id="i_wm_web_login_list" messageCode="global_menu_list" url="/wm_web_logins?page=1&amp;size=${empty param.size ? 10 : param.size}" z="7Gs5fmaEjUstbGCpEHqDe1r/qRM="/>
+        </menu:category>
+        <menu:category id="c_wm_log" z="5UahMWwK77om1Ui8AEptIGzD0pY=">
+            <menu:item id="i_wm_log_new" messageCode="global_menu_new" url="/wm_logs?form" z="Qazs/AAvxHft3WHfHFEa1KgDBA8="/>
+            <menu:item id="i_wm_log_list" messageCode="global_menu_list" url="/wm_logs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xnYeY4rhEddECTEnme2wdXtdruk="/>
+        </menu:category>
+    </menu:menu>
+</div>

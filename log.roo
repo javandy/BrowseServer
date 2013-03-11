@@ -1,0 +1,55 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-27 14:21:15
+project --topLevelPackage com.wm.bs --projectName BrowserServer --java 6 --packaging JAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-27 14:21:26
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-27 14:21:29
+persistence setup --provider HIBERNATE --database MYSQL
+database properties set --key database.password --value wmonline123
+database properties set --key database.username --value root
+database properties set --key database.url --value jdbc:mysql://localhost:3306/wm_wbs
+entity jpa --class ~.domain.wm_website
+field string --fieldName ww_name --notNull --sizeMax 255
+field string --fieldName username_v --notNull --sizeMax 255
+field string --fieldName password_v --notNull --sizeMax 255
+field string --fieldName submit_p --sizeMax 20
+field boolean --fieldName is_active --notNull
+field date --fieldName mtime --type java.util.Date
+web mvc setup 
+web mvc all --package ~.web
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-27 14:26:04
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-27 14:26:41
+hint
+help
+hint web mvc language
+addon search china
+addon search cn
+addon search chinese
+addon search french
+addon list
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-27 14:55:08
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-27 15:24:22
+entity jpa --class ~.domain.wm_web_login
+field reference --fieldName ww_id --type ~.domain.wm_website
+field string --fieldName ww_name --notNull --sizeMax 255
+field string --fieldName username --notNull --sizeMax 255
+field string --fieldName password --notNull --sizeMax 255
+field boolean --fieldName is_used --notNull
+field boolean --fieldName is_active --notNull
+field date --fieldName mtime --type java.util.Date
+entity jpa --class ~.domain.wm_log
+field string --fieldName ip --sizeMax 16
+field string --fieldName website --notNull --sizeMax 255
+field string --fieldName username --notNull --sizeMax 255
+field date --fieldName btime --type java.util.Date
+field date --fieldName etime --type java.util.Date
+web mvc all --package ~.web
+json all
+controller all --package ~.web
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-27 16:57:14
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-28 09:34:38
+web mvc json all
+exit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-28 09:34:57
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-03-01 14:49:05
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-03-01 15:25:58
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-03-11 10:49:20
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-03-11 13:47:49

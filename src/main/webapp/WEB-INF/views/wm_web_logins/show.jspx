@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_wm_bs_domain_Wm_web_login" object="${wm_web_login}" path="/wm_web_logins" z="dcvJAVzbhjOKe6Us6XgD5EzVSb8=">
+        <field:display field="ww_id" id="s_com_wm_bs_domain_Wm_web_login_ww_id" object="${wm_web_login}" z="7J+b7gCG1LnLT74fDkWJYFN4lSw="/>
+        <field:display field="ww_name" id="s_com_wm_bs_domain_Wm_web_login_ww_name" object="${wm_web_login}" z="ApdyRtlTHhge1Ripcwdr6qN0pok="/>
+        <field:display field="username" id="s_com_wm_bs_domain_Wm_web_login_username" object="${wm_web_login}" z="fIpVO7/S5uVaQpTpkjd+MEhxXxY="/>
+        <field:display field="password" id="s_com_wm_bs_domain_Wm_web_login_password" object="${wm_web_login}" z="XCKIHFPIi68c/0+axYMp8xgLzwo="/>
+        <field:display field="is_used" id="s_com_wm_bs_domain_Wm_web_login_is_used" object="${wm_web_login}" z="HCJKeyUCym4uxpOPGqKpiEFwMA4="/>
+        <field:display field="is_active" id="s_com_wm_bs_domain_Wm_web_login_is_active" object="${wm_web_login}" z="qNcCI3+IkqvPtSPpRadROzl3oUk="/>
+        <field:display date="true" dateTimePattern="${wm_web_login_mtime_date_format}" field="mtime" id="s_com_wm_bs_domain_Wm_web_login_mtime" object="${wm_web_login}" z="3UxjTgA8uU0Q2XVjf3itvozBaew="/>
+    </page:show>
+</div>

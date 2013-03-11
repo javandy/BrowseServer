@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_wm_bs_domain_Wm_log" object="${wm_log}" path="/wm_logs" z="gOUm7g44Z8v7iF4U8EK7OG+7J7c=">
+        <field:display field="ip" id="s_com_wm_bs_domain_Wm_log_ip" object="${wm_log}" z="zh7OBcV5c9alKY/hR5jRAZ6C9oA="/>
+        <field:display field="website" id="s_com_wm_bs_domain_Wm_log_website" object="${wm_log}" z="FeVF/DCVpFKX4NFPYqIfiZ2SlUw="/>
+        <field:display field="username" id="s_com_wm_bs_domain_Wm_log_username" object="${wm_log}" z="GkJjYFbE0uPfZ/QOMKxXY46+gZY="/>
+        <field:display date="true" dateTimePattern="${wm_log_btime_date_format}" field="btime" id="s_com_wm_bs_domain_Wm_log_btime" object="${wm_log}" z="YQFnYn03Num+8G9BEInndes0WAs="/>
+        <field:display date="true" dateTimePattern="${wm_log_etime_date_format}" field="etime" id="s_com_wm_bs_domain_Wm_log_etime" object="${wm_log}" z="ZYNIRRtST0dIHr4MiyEJrC7cXXI="/>
+    </page:show>
+</div>

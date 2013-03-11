@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_wm_bs_domain_Wm_website" items="${wm_websites}" z="X6J4iegoaS0rbSEbZILLsq04Yic=">
+        <table:table data="${wm_websites}" id="l_com_wm_bs_domain_Wm_website" path="/wm_websites" z="Tc0PF9be28c5zWlhvCmc+BRxvKk=">
+            <table:column id="c_com_wm_bs_domain_Wm_website_ww_name" property="ww_name" z="tEsFz3A2MCNGGpRKOWKzPXRLDBU="/>
+            <table:column id="c_com_wm_bs_domain_Wm_website_username_v" property="username_v" z="wtqHmjdKwjL2pQI8E8LEyDRfR1o="/>
+            <table:column id="c_com_wm_bs_domain_Wm_website_password_v" property="password_v" z="+cvMA/C5jQn5VofpLefwpTFAQOg="/>
+            <table:column id="c_com_wm_bs_domain_Wm_website_submit_p" property="submit_p" z="DnQsjrktKowvVVhbjZMQuzUJ09c="/>
+            <table:column id="c_com_wm_bs_domain_Wm_website_is_active" property="is_active" z="qvV2h+GkAV8lOGYtUz+9S2orRdU="/>
+            <table:column date="true" dateTimePattern="${wm_website_mtime_date_format}" id="c_com_wm_bs_domain_Wm_website_mtime" property="mtime" z="4XkRgKyxo5zW/aWuVUSnJHj9AkQ="/>
+        </table:table>
+    </page:list>
+</div>

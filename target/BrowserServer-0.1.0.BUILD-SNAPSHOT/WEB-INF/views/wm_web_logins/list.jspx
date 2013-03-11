@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_wm_bs_domain_Wm_web_login" items="${wm_web_logins}" z="y++9dfppWQ7B7Ct0EB7M4r+iC7E=">
+        <table:table data="${wm_web_logins}" id="l_com_wm_bs_domain_Wm_web_login" path="/wm_web_logins" z="UNbNXSH4O+/KpeKB8jHhBLWkUn0=">
+            <table:column id="c_com_wm_bs_domain_Wm_web_login_ww_id" property="ww_id" z="Mj/Q6f41xUZWa/AmqT9+q9rfs9Y="/>
+            <table:column id="c_com_wm_bs_domain_Wm_web_login_ww_name" property="ww_name" z="p7VSnarin2H6zFtztFWBfENHkLE="/>
+            <table:column id="c_com_wm_bs_domain_Wm_web_login_username" property="username" z="NJHl7PkAEBQxtwEjbqE3JzLcdyA="/>
+            <table:column id="c_com_wm_bs_domain_Wm_web_login_password" property="password" z="Om18eTqWc8zuaURhhCAq8R+Xybc="/>
+            <table:column id="c_com_wm_bs_domain_Wm_web_login_is_used" property="is_used" z="Me96p1CjtMTAHCp7VRKQSZd8Uj0="/>
+            <table:column id="c_com_wm_bs_domain_Wm_web_login_is_active" property="is_active" z="2WAnBdpidDgDZn1WqJVO6azHZ9g="/>
+        </table:table>
+    </page:list>
+</div>
