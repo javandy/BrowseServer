@@ -11,6 +11,14 @@ import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.json.RooJson;
 import org.springframework.roo.addon.tostring.RooToString;
 
+/** 
+ * Project Name:BrowserServer 
+ * File Name:Wm_website.java 
+ * Package Name:com.wm.bs.domain 
+ * Date:2013-3-12下午3:56:52 
+ * Copyright (c) 2013, andy.zh1215@gmail.com All Rights Reserved. 
+ * 
+ */
 @RooJavaBean
 @RooToString
 @RooJpaActiveRecord

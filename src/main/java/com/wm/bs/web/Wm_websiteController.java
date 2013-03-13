@@ -13,6 +13,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/** 
+ * Project Name:BrowserServer 
+ * File Name:Wm_websiteController.java 
+ * Package Name:com.wm.bs.web 
+ * Date:2013-3-12下午3:58:01 
+ * Copyright (c) 2013, andy.zh1215@gmail.com All Rights Reserved. 
+ * 
+ */
 @RequestMapping("/wm_websites")
 @Controller
 @RooWebScaffold(path = "wm_websites", formBackingObject = Wm_website.class)
