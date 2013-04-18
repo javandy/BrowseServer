@@ -29,12 +29,21 @@ public class Wm_web_loginController {
 	@RequestMapping(value = "/{ww_name}/", headers = "Accept=application/json")
     @ResponseBody
     public ResponseEntity<String> showJson(@PathVariable("ww_name") String ww_name) {
+		HttpHeaders headers = new HttpHeaders();
+	try{
+		ww_name = ww_name.replace("!", "/");
+		ww_name = ww_name.replace("*", "?");
         Wm_web_login wm_web_login = Wm_web_login.findWm_web_login_byname(ww_name);
-        HttpHeaders headers = new HttpHeaders();
+        
         headers.add("Content-Type", "application/json; charset=utf-8");
         if (wm_web_login == null) {
             return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<String>(wm_web_login.toJson(), headers, HttpStatus.OK);
-    }
+    }catch(Exception e)
+    {
+    	return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+    	}
+	}
+
 }

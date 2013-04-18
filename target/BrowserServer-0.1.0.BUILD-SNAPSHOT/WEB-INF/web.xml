@@ -4,7 +4,7 @@
     
     <display-name>BrowserServer</display-name>
     
-    <description>Roo generated BrowserServer application</description>
+    <description>BrowserServer application</description>
 
     
     <!-- Enable escaping of form submission contents -->

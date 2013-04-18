@@ -1,6 +1,8 @@
 package com.wm.bs.domain;
 
 import java.util.Date;
+import java.util.List;
+
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
@@ -51,4 +53,10 @@ public class Wm_website {
         if (ww_name == null) return null;
         return entityManager().createQuery("SELECT o FROM Wm_website o where o.ww_name =?1 and o.is_active =true", Wm_website.class).setParameter(1,ww_name).getSingleResult();
     }
+    
+    public static List<Wm_website> findAllWm_websites_inactive() {
+        return entityManager().createQuery("SELECT o FROM Wm_website o where o.is_active =true", Wm_website.class).getResultList();
+    }
+    
+    
 }

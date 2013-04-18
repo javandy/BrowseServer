@@ -69,7 +69,7 @@ privileged aspect Wm_web_loginController_Roo_Controller {
             return "wm_web_logins/update";
         }
         uiModel.asMap().clear();
-        wm_web_login.merge();
+        wm_web_login.merge();         
         return "redirect:/wm_web_logins/" + encodeUrlPathSegment(wm_web_login.getId().toString(), httpServletRequest);
     }
     

@@ -6,6 +6,8 @@ package com.wm.bs.web;
 import com.wm.bs.domain.Wm_log;
 import com.wm.bs.web.Wm_logController;
 import java.util.List;
+
+import org.junit.runner.Request;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -40,7 +42,9 @@ privileged aspect Wm_logController_Roo_Controller_Json {
     
     @RequestMapping(method = RequestMethod.POST, headers = "Accept=application/json")
     public ResponseEntity<String> Wm_logController.createFromJson(@RequestBody String json) {
-        Wm_log wm_log = Wm_log.fromJsonToWm_log(json);
+    	//String ip = Request..getRemoteAddr();
+    	//System.out.println(ip);
+    	Wm_log wm_log = Wm_log.fromJsonToWm_log(json);
         wm_log.persist();
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type", "application/json");
